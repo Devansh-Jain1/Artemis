@@ -47,6 +47,7 @@ The 1.053-second figure ends when audio is scheduled, not when sound is measured
 
 ```text
 AIYKit/
+  README.md
   client/newclient_pizero.py
   server/secure_server.py
 experiments/
@@ -56,7 +57,7 @@ docs/
   voice-results.json
 ```
 
-The early device client and processing server are grouped under `AIYKit/`. The conversation-export parser is a separate experiment. The private phone implementation and Nano research have not been copied into this repository. The public [camera/glasses research snapshot](https://github.com/Devansh-Jain1/artemis-meta-glasses) is maintained separately.
+The early device client and processing server are grouped under [AIYKit/](AIYKit/README.md), with one shared guide for both. The conversation-export parser is a separate experiment. The private phone implementation and Nano research have not been copied into this repository. The public [camera/glasses research snapshot](https://github.com/Devansh-Jain1/artemis-meta-glasses) is maintained separately.
 
 | File | Purpose |
 | --- | --- |
