@@ -1,0 +1,33 @@
+{
+  "run_date": "2026-10-02",
+  "hardware_identifier": "iPhone17,2",
+  "build_number": "20261002",
+  "measurement": "Final transcript to first scheduled output audio; not acoustic onset or end-to-end latency.",
+  "final_to_first_audio_scheduled_ms": [
+    1757,
+    1156,
+    1269,
+    977,
+    1053,
+    1019,
+    293
+  ],
+  "median_ms": 1053,
+  "counts": {
+    "finalized_turns": 7,
+    "learned_completion_decisions": 4,
+    "timeout_completions": 3,
+    "interruption_cancellations": 5,
+    "completed_speech_streams": 2
+  },
+  "learned_completion_after_speech_end_ms_range": [
+    333,
+    345
+  ],
+  "limitations": [
+    "Seven finalized turns; five TTS cancellations and two stream finishes are not seven uninterrupted completions.",
+    "Final-to-scheduled-audio excludes user speaking and endpoint decision time, and is not measured acoustic onset.",
+    "First model fragment, complete model response, complete TTS stream and first scheduled audio are different metrics.",
+    "No matched prompts, recording environment, response lengths or hardware between July2025 and October2026."
+  ]
+}
